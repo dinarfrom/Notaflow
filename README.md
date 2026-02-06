@@ -46,9 +46,9 @@ This project is authored by Group 46.
 
 The group members are:
 
-Ask Hallem-Berg
-Dina Rosvold From
-Mari Gjul
-Nicolay Emil Fremstad Løvlie
-Sylvia Yung
+Ask Hallem-Berg,
+Dina Rosvold From,
+Mari Gjul,
+Nicolay Emil Fremstad Løvlie,
+Sylvia Yung,
 Thomas Elias Ruth.
