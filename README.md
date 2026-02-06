@@ -1,103 +1,54 @@
-# Notatdelingsplattform 
+# Notaflow
 
-## Development
+## Description
+Notaflow is a user-friendly platform designed to simplify the process of sharing and discovering study materials. It allows users to create personalized accounts, publish notes across various subjects, and engage with other users through comments and ratings. With the ability to search for specific subjects, favorite important notes, and even receive recommendations for the most popular content, Notaflow is the ideal tool for efficient studying.
 
-### Prerequisites
+Key features include:
 
-- [Visual Studio Code](https://code.visualstudio.com/)
-- [Docker](https://www.docker.com/products/docker-desktop/)
-- [Visual Studio Code Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+- User Account Management: Create and manage a personalized profile with easy access to platform features.
+- Notes Publishing & Sharing: Share your notes with others and get feedback through ratings and comments.
+- Favorites & Recommendations: Save important notes for future reference and receive recommendations for the most popular study materials.
+- Advanced Search & Filters: Search for specific subjects and filter notes by tags or themes for a more personalized experience.
+- Private Groups & Collaboration: Create private groups to collaborate with select individuals on shared study resources.
+- Dark Mode: Switch between light and dark mode for a customized viewing experience.
+- Content Moderation: Admins can manage and remove inappropriate content to maintain a safe platform for all users. As well as generate subjects and new categories.
+Whether you're looking to organize your study materials or collaborate with peers, Notaflow offers an intuitive and feature-rich environment to enhance your learning experience.
 
-### Getting Started
+## Explore the webside
 
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd notatdelingsplattform
-   ```
+Website: nota-flow.vercel.app
 
-2. Open the project in VS Code:
-   ```bash
-   code .
-   ```
+You can log in as a guest user or register your own account! Please note that while you can explore the platform as a guest or as a user, you won’t have access to the admin functions, which were a key part of our user stories for this project.
 
-3. When prompted, click "Reopen in Container" or press `F1`, type "Dev Containers: Reopen in Container" and press Enter.
+Email: guest@gmail.com Password: guest123
 
-The dev container will automatically:
-- Install all necessary VS Code extensions
-- Set up Node.js 20 environment
-- Install Firebase CLI
-- Install all frontend dependencies
-- Configure git for the workspace
+### Tech Stach Overview
 
-### Development Environment
+We used the following technologies to build the platform:
 
-The development environment includes:
+Frontend: React with TypeScript for type safety
+Build Tool: Vite
+Backend: Firebase
+Database: Firestore
 
-- React + Vite frontend setup under `/frontend`
-- Firebase backend configuration
-- TailwindCSS for styling
-- ESLint for code linting
-- TypeScript support
+### Tech Stach Overview
 
-### Available Commands
-
-From the `/frontend` directory:
+To set up the project locally, follow these steps from the /frontend directory:
 
 ```bash
-# Start development server
+npm install
+
 npm run dev
+ ```
+### Meet the team
 
-# Build for production
-npm run build
+This project is authored by Group 46.
 
-# Preview production build
-npm run preview
-```
+The group members are:
 
-### Firebase Commands
-
-The Firebase CLI is pre-installed in the dev container. Common commands:
-
-```bash
-# Initialize Firebase in the project
-firebase init
-
-# Deploy to Firebase
-firebase deploy
-
-# Start Firebase emulators
-firebase emulators:start
-```
-
-### VS Code Extensions
-
-The following extensions are automatically installed in the dev container:
-
-- ESLint
-- Tailwind CSS IntelliSense
-- Auto Rename Tag
-- ES7+ React/Redux/React-Native snippets
-- Path Intellisense
-- DotENV
-- Firebase
-- Vite
-- Error Lens
-
-### Ports
-
-The development server runs on port 5173 and is automatically forwarded from the container to your host machine.
-
-### Troubleshooting
-
-If you encounter any issues:
-
-1. Rebuild the dev container: 
-   - Press F1
-   - Type "Dev Containers: Rebuild Container" and press Enter
-
-2. Verify Docker is running on your system
-
-3. Check that all required VS Code extensions are installed
-
-4. If npm installations fail, try removing the `node_modules` folder and running `npm install` again within the container
+Ask Hallem-Berg
+Dina Rosvold From
+Mari Gjul
+Nicolay Emil Fremstad Løvlie
+Sylvia Yung
+Thomas Elias Ruth.
